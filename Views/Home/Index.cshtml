@@ -1,0 +1,25 @@
+﻿@model youtube_converter_mp4.Models.VideoInfo
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Baixar Vídeo do YouTube</h1>
+    <p>Insira o URL do vídeo do YouTube:</p>
+    <form asp-controller="Home" asp-action="GetVideoInfo" method="post">
+        <input type="text" name="videoUrl" class="form-control" />
+        <br />
+        <button type="submit" class="btn btn-primary">Obter Informações</button>
+    </form>
+    <br />
+    @if (Model != null)
+    {
+        <h2>Informações do Vídeo:</h2>
+        <p>Título: @Model.Title</p>
+        <p>Duração: @Model.Duration</p>
+        <img src="@Model.ThumbnailUrl" alt="Thumbnail" />
+        <br />
+        <a asp-controller="Home" asp-action="DownloadVideo" asp-route-videoUrl="@Model.VideoUrl" class="btn btn-success mt-2">Baixar MP4</a>
+    }
+</div>

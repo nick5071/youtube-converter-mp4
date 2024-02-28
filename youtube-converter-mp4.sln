@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtube-converter-mp4", "youtube-converter-mp4.csproj", "{FC6A5E84-1FE1-41FA-9881-25DBB0AFEE62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6A5E84-1FE1-41FA-9881-25DBB0AFEE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6A5E84-1FE1-41FA-9881-25DBB0AFEE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6A5E84-1FE1-41FA-9881-25DBB0AFEE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6A5E84-1FE1-41FA-9881-25DBB0AFEE62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E18850-7E49-4C79-8D44-F98324A32554}
+	EndGlobalSection
+EndGlobal
